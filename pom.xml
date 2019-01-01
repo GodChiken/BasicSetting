@@ -19,7 +19,7 @@
     <!--web-->
     <dependency>
       <groupId>javax.servlet</groupId>
-      <artifactId>servlet-api</artifactId>q
+      <artifactId>servlet-api</artifactId>
       <version>2.5</version>
     </dependency>
     <dependency>
@@ -199,6 +199,11 @@
       <groupId>org.codehaus.jackson</groupId>
       <artifactId>jackson-mapper-asl</artifactId>
       <version>1.9.9</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.0</version>
     </dependency>
   </dependencies>
 
