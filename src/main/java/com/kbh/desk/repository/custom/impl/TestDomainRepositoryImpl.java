@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.support.QueryDslRepositorySupport
 import java.util.List;
 
 public class TestDomainRepositoryImpl extends QueryDslRepositorySupport implements CustomTestDomainRepository{
-    public TestDomainRepositoryImpl(Class<?> domainClass) {
+    public TestDomainRepositoryImpl() {
         super(TestDomain.class);
     }
 
