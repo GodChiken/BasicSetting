@@ -17,7 +17,6 @@ import javax.persistence.*;
 public class TestDomain {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "manager_idx")
     private int managerIdx;
 
     private String id;
