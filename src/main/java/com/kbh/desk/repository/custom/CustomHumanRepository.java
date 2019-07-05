@@ -5,5 +5,5 @@ import com.kbh.desk.domain.Human;
 import java.util.List;
 
 public interface CustomHumanRepository {
-    List<Human> findByName(String name);
+    List<Human> findBySearchCondition(String name);
 }
